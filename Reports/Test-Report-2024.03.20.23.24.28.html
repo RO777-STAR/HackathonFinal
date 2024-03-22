@@ -1,0 +1,2062 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>EMICalculator Automation</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">EMICalculator Testing</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 20, 2024 11:24:28 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_1_01_ParsingRequiredValuesToTheRespectiveFields</p>
+            <p class="text-sm">
+              <span>11:24:43 PM</span> / <span>00:00:00:234</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_1_01_ParsingRequiredValuesToTheRespectiveFields</h5>
+<span class='badge badge-success'>03.20.2024 11:24:43 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:24:43 PM</span>
+<span class='badge badge-default'>00:00:00:234</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\parseDatas_20240320112443.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\parseDatas_20240320112443.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:43 PM</td>
+        <td>
+          parseDatas got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_1_02_DisplayingTheEMIPaymentTable</p>
+            <p class="text-sm">
+              <span>11:24:46 PM</span> / <span>00:00:00:165</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_1_02_DisplayingTheEMIPaymentTable</h5>
+<span class='badge badge-success'>03.20.2024 11:24:46 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:24:46 PM</span>
+<span class='badge badge-default'>00:00:00:165</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\displayResult_20240320112446.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\displayResult_20240320112446.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:46 PM</td>
+        <td>
+          displayResult got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_2_01_StoringTheYearTableInTheExcel</p>
+            <p class="text-sm">
+              <span>11:25:00 PM</span> / <span>00:00:00:152</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_2_01_StoringTheYearTableInTheExcel</h5>
+<span class='badge badge-success'>03.20.2024 11:25:00 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:00 PM</span>
+<span class='badge badge-default'>00:00:00:152</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\storeTable_20240320112500.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\storeTable_20240320112500.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:00 PM</td>
+        <td>
+          storeTable got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_01_EMICalculator_ValidatingLoanAmountTextBox</p>
+            <p class="text-sm">
+              <span>11:25:02 PM</span> / <span>00:00:00:281</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_01_EMICalculator_ValidatingLoanAmountTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:02 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:02 PM</span>
+<span class='badge badge-default'>00:00:00:281</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanAmountTextBox_20240320112502.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanAmountTextBox_20240320112502.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:02 PM</td>
+        <td>
+          validateLoanAmountTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_02_EMICalculator_ValidatingLoanAmountSlider</p>
+            <p class="text-sm">
+              <span>11:25:03 PM</span> / <span>00:00:00:253</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_02_EMICalculator_ValidatingLoanAmountSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:03 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:04 PM</span>
+<span class='badge badge-default'>00:00:00:253</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanAmountSlider_20240320112503.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanAmountSlider_20240320112503.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:03 PM</td>
+        <td>
+          validateLoanAmountSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_03_EMICalculator_IntegressionTestingForLoanAmountTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:25:06 PM</span> / <span>00:00:00:272</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_03_EMICalculator_IntegressionTestingForLoanAmountTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:06 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:07 PM</span>
+<span class='badge badge-default'>00:00:00:272</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenLoanAmountSliderAndTextBox_20240320112506.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenLoanAmountSliderAndTextBox_20240320112506.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:06 PM</td>
+        <td>
+          validatingDataFlowBetweenLoanAmountSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_04_EMICalculator_ValidatingInterestRateTextBox</p>
+            <p class="text-sm">
+              <span>11:25:09 PM</span> / <span>00:00:00:246</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_04_EMICalculator_ValidatingInterestRateTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:09 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:09 PM</span>
+<span class='badge badge-default'>00:00:00:246</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateInterestRateTextBox_20240320112509.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateInterestRateTextBox_20240320112509.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:09 PM</td>
+        <td>
+          validateInterestRateTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_05_EMICalculator_ValidatingInterestRateSlider</p>
+            <p class="text-sm">
+              <span>11:25:11 PM</span> / <span>00:00:00:380</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_05_EMICalculator_ValidatingInterestRateSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:11 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:11 PM</span>
+<span class='badge badge-default'>00:00:00:380</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateInterestRateSlider_20240320112511.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateInterestRateSlider_20240320112511.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:11 PM</td>
+        <td>
+          validateInterestRateSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_06_EMICalculator_IntegressionTestingForInterestRateTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:25:15 PM</span> / <span>00:00:00:238</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_06_EMICalculator_IntegressionTestingForInterestRateTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:15 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:15 PM</span>
+<span class='badge badge-default'>00:00:00:238</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenInterestRateSliderAndTextBox_20240320112515.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenInterestRateSliderAndTextBox_20240320112515.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:15 PM</td>
+        <td>
+          validatingDataFlowBetweenInterestRateSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_07_EMICalculator_ValidatingLoanTenureTextBox</p>
+            <p class="text-sm">
+              <span>11:25:17 PM</span> / <span>00:00:00:192</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_07_EMICalculator_ValidatingLoanTenureTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:17 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:17 PM</span>
+<span class='badge badge-default'>00:00:00:192</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanTenureTextBox_20240320112517.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanTenureTextBox_20240320112517.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:17 PM</td>
+        <td>
+          validateLoanTenureTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_08_EMICalculator_ValidatingLoanTenureSlider</p>
+            <p class="text-sm">
+              <span>11:25:19 PM</span> / <span>00:00:00:251</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_08_EMICalculator_ValidatingLoanTenureSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:19 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:19 PM</span>
+<span class='badge badge-default'>00:00:00:251</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanTenureSlider_20240320112519.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanTenureSlider_20240320112519.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:19 PM</td>
+        <td>
+          validateLoanTenureSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_09_EMICalculator_IntegressionTestingForLoanTenureTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:25:21 PM</span> / <span>00:00:00:262</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_09_EMICalculator_IntegressionTestingForLoanTenureTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:21 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:21 PM</span>
+<span class='badge badge-default'>00:00:00:262</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenLoanTenureSliderAndTextBox_20240320112521.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenLoanTenureSliderAndTextBox_20240320112521.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:21 PM</td>
+        <td>
+          validatingDataFlowBetweenLoanTenureSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_10_EMICalculator_ValidatingFeesAndChargesTextBox</p>
+            <p class="text-sm">
+              <span>11:25:23 PM</span> / <span>00:00:00:231</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_10_EMICalculator_ValidatingFeesAndChargesTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:23 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:23 PM</span>
+<span class='badge badge-default'>00:00:00:231</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesTextBox_20240320112523.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesTextBox_20240320112523.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:23 PM</td>
+        <td>
+          validateFeesAndChargesTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_11_EMICalculator_ValidatingFeesAndChargesSlider</p>
+            <p class="text-sm">
+              <span>11:25:25 PM</span> / <span>00:00:00:267</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_11_EMICalculator_ValidatingFeesAndChargesSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:25 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:25 PM</span>
+<span class='badge badge-default'>00:00:00:267</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesSlider_20240320112525.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesSlider_20240320112525.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:25 PM</td>
+        <td>
+          validateFeesAndChargesSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_12_EMICalculator_IntegressionTestingForFeesAndChargesTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:25:28 PM</span> / <span>00:00:00:216</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_12_EMICalculator_IntegressionTestingForFeesAndChargesTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:28 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:29 PM</span>
+<span class='badge badge-default'>00:00:00:216</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenFeesAndChargesSliderAndTextBox_20240320112528.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenFeesAndChargesSliderAndTextBox_20240320112528.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:28 PM</td>
+        <td>
+          validatingDataFlowBetweenFeesAndChargesSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_13_LoanAmtCalculator_ValidatingEMITextBox</p>
+            <p class="text-sm">
+              <span>11:25:30 PM</span> / <span>00:00:00:228</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_13_LoanAmtCalculator_ValidatingEMITextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:30 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:30 PM</span>
+<span class='badge badge-default'>00:00:00:228</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingValidatingEMITextBox_20240320112530.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingValidatingEMITextBox_20240320112530.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:30 PM</td>
+        <td>
+          validatingValidatingEMITextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_14_LoanAmtCalculator_ValidatingEMISlider</p>
+            <p class="text-sm">
+              <span>11:25:33 PM</span> / <span>00:00:00:241</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_14_LoanAmtCalculator_ValidatingEMISlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:33 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:33 PM</span>
+<span class='badge badge-default'>00:00:00:241</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingEMISlider_20240320112533.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingEMISlider_20240320112533.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:33 PM</td>
+        <td>
+          validatingEMISlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_15_LoanAmtCalculator_IntegressionTestingForEMITextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:25:36 PM</span> / <span>00:00:00:278</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_3_15_LoanAmtCalculator_IntegressionTestingForEMITextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:36 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:36 PM</span>
+<span class='badge badge-default'>00:00:00:278</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenEMISliderAndTextBox_20240320112536.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenEMISliderAndTextBox_20240320112536.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:25:36 PM</td>
+        <td>
+          validatingDataFlowBetweenEMISliderAndTextBox got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:25:36 PM</td>
+        <td>
+          null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_16_LoanAmtCalculator_ValidatingInterestRateTextBox</p>
+            <p class="text-sm">
+              <span>11:25:38 PM</span> / <span>00:00:00:203</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_16_LoanAmtCalculator_ValidatingInterestRateTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:38 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:38 PM</span>
+<span class='badge badge-default'>00:00:00:203</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateInterestRateTextBox_20240320112538.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateInterestRateTextBox_20240320112538.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:38 PM</td>
+        <td>
+          validateInterestRateTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_17_LoanAmtCalculator_ValidatingInterestRateSlider</p>
+            <p class="text-sm">
+              <span>11:25:40 PM</span> / <span>00:00:00:313</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_17_LoanAmtCalculator_ValidatingInterestRateSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:40 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:40 PM</span>
+<span class='badge badge-default'>00:00:00:313</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenInterestRateSliderAndTextBox_20240320112540.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenInterestRateSliderAndTextBox_20240320112540.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:40 PM</td>
+        <td>
+          validatingDataFlowBetweenInterestRateSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_18_LoanAmtCalculator_IntegressionTestingForInterestRateTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:25:43 PM</span> / <span>00:00:00:207</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_18_LoanAmtCalculator_IntegressionTestingForInterestRateTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:43 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:43 PM</span>
+<span class='badge badge-default'>00:00:00:207</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenInterestRateSliderAndTextBox_20240320112543.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenInterestRateSliderAndTextBox_20240320112543.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:43 PM</td>
+        <td>
+          validatingDataFlowBetweenInterestRateSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_19_LoanAmtCalculator_ValidatingLoanTenureTextBox</p>
+            <p class="text-sm">
+              <span>11:25:45 PM</span> / <span>00:00:00:234</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_19_LoanAmtCalculator_ValidatingLoanTenureTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:45 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:46 PM</span>
+<span class='badge badge-default'>00:00:00:234</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanTenureTextBox_20240320112545.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanTenureTextBox_20240320112545.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:45 PM</td>
+        <td>
+          validateLoanTenureTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_20_LoanAmtCalculator_ValidatingLoanTenureSlider</p>
+            <p class="text-sm">
+              <span>11:25:47 PM</span> / <span>00:00:00:282</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_20_LoanAmtCalculator_ValidatingLoanTenureSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:47 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:47 PM</span>
+<span class='badge badge-default'>00:00:00:282</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanTenureSlider_20240320112547.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanTenureSlider_20240320112547.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:47 PM</td>
+        <td>
+          validateLoanTenureSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_21_LoanAmtCalculator_IntegressionTestingForLoanTenureTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:25:50 PM</span> / <span>00:00:00:212</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_21_LoanAmtCalculator_IntegressionTestingForLoanTenureTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:50 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:51 PM</span>
+<span class='badge badge-default'>00:00:00:212</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenLoanTenureSliderAndTextBox_20240320112550.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenLoanTenureSliderAndTextBox_20240320112550.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:50 PM</td>
+        <td>
+          validatingDataFlowBetweenLoanTenureSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox</p>
+            <p class="text-sm">
+              <span>11:25:52 PM</span> / <span>00:00:00:229</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:52 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:53 PM</span>
+<span class='badge badge-default'>00:00:00:229</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesTextBox_20240320112552.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesTextBox_20240320112552.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:52 PM</td>
+        <td>
+          validateFeesAndChargesTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider</p>
+            <p class="text-sm">
+              <span>11:25:54 PM</span> / <span>00:00:00:358</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:54 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:55 PM</span>
+<span class='badge badge-default'>00:00:00:358</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesSlider_20240320112554.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesSlider_20240320112554.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:54 PM</td>
+        <td>
+          validateFeesAndChargesSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_24_LoanAmtCalculator_IntegressionTestingForFeesAndChargesTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:25:57 PM</span> / <span>00:00:00:237</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_24_LoanAmtCalculator_IntegressionTestingForFeesAndChargesTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:25:57 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:25:57 PM</span>
+<span class='badge badge-default'>00:00:00:237</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenFeesAndChargesSliderAndTextBox_20240320112557.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenFeesAndChargesSliderAndTextBox_20240320112557.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:57 PM</td>
+        <td>
+          validatingDataFlowBetweenFeesAndChargesSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_25_LoanTenureCalculator_ValidatingLoanAmountTextBox</p>
+            <p class="text-sm">
+              <span>11:25:59 PM</span> / <span>00:00:00:292</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_25_LoanTenureCalculator_ValidatingLoanAmountTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:25:59 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:00 PM</span>
+<span class='badge badge-default'>00:00:00:292</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanAmountTextBox_20240320112559.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanAmountTextBox_20240320112559.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:25:59 PM</td>
+        <td>
+          validateLoanAmountTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_26_LoanTenureCalculator_ValidatingLoanAmountSlider</p>
+            <p class="text-sm">
+              <span>11:26:01 PM</span> / <span>00:00:00:275</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_26_LoanTenureCalculator_ValidatingLoanAmountSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:26:01 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:01 PM</span>
+<span class='badge badge-default'>00:00:00:275</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanAmountSlider_20240320112601.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateLoanAmountSlider_20240320112601.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:01 PM</td>
+        <td>
+          validateLoanAmountSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_27_LoanTenureCalculator_IntegressionTestingForLoanAmountTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:26:04 PM</span> / <span>00:00:00:245</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_27_LoanTenureCalculator_IntegressionTestingForLoanAmountTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:26:04 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:04 PM</span>
+<span class='badge badge-default'>00:00:00:245</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenLoanAmountSliderAndTextBox_20240320112604.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenLoanAmountSliderAndTextBox_20240320112604.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:04 PM</td>
+        <td>
+          validatingDataFlowBetweenLoanAmountSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_28_LoanTenureCalculator_ValidatingEMITextBox</p>
+            <p class="text-sm">
+              <span>11:26:06 PM</span> / <span>00:00:00:235</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_28_LoanTenureCalculator_ValidatingEMITextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:26:06 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:06 PM</span>
+<span class='badge badge-default'>00:00:00:235</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingValidatingEMITextBox_20240320112606.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingValidatingEMITextBox_20240320112606.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:06 PM</td>
+        <td>
+          validatingValidatingEMITextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_29_LoanTenureCalculator_ValidatingEMISlider</p>
+            <p class="text-sm">
+              <span>11:26:09 PM</span> / <span>00:00:00:282</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_29_LoanTenureCalculator_ValidatingEMISlider</h5>
+<span class='badge badge-success'>03.20.2024 11:26:09 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:09 PM</span>
+<span class='badge badge-default'>00:00:00:282</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingEMISlider_20240320112609.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingEMISlider_20240320112609.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:09 PM</td>
+        <td>
+          validatingEMISlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="33"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_30_LoanTenureCalculator_IntegressionTestingForEMITextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:26:12 PM</span> / <span>00:00:00:222</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">testCases.TC_3_30_LoanTenureCalculator_IntegressionTestingForEMITextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:26:12 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:12 PM</span>
+<span class='badge badge-default'>00:00:00:222</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenEMISliderAndTextBox_20240320112612.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenEMISliderAndTextBox_20240320112612.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:26:12 PM</td>
+        <td>
+          validatingDataFlowBetweenEMISliderAndTextBox got failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:26:12 PM</td>
+        <td>
+          null
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_31_LoanTenureCalculator_ValidatingInterestRateTextBox</p>
+            <p class="text-sm">
+              <span>11:26:14 PM</span> / <span>00:00:00:232</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_31_LoanTenureCalculator_ValidatingInterestRateTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:26:14 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:15 PM</span>
+<span class='badge badge-default'>00:00:00:232</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateInterestRateTextBox_20240320112614.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateInterestRateTextBox_20240320112614.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:14 PM</td>
+        <td>
+          validateInterestRateTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_32_LoanTenureCalculator_ValidatingInterestRateSlider</p>
+            <p class="text-sm">
+              <span>11:26:17 PM</span> / <span>00:00:00:254</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_32_LoanTenureCalculator_ValidatingInterestRateSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:26:17 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:17 PM</span>
+<span class='badge badge-default'>00:00:00:254</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingInterestRateSlider_20240320112617.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingInterestRateSlider_20240320112617.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:17 PM</td>
+        <td>
+          validatingInterestRateSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_33_LoanTenureCalculator_IntegressionTestingForInterestRateTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:26:20 PM</span> / <span>00:00:00:177</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_33_LoanTenureCalculator_IntegressionTestingForInterestRateTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:26:20 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:20 PM</span>
+<span class='badge badge-default'>00:00:00:177</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateDataFlowBetweenInterestRateSliderAndTextBox_20240320112620.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateDataFlowBetweenInterestRateSliderAndTextBox_20240320112620.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:20 PM</td>
+        <td>
+          validateDataFlowBetweenInterestRateSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox</p>
+            <p class="text-sm">
+              <span>11:26:22 PM</span> / <span>00:00:00:187</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox</h5>
+<span class='badge badge-success'>03.20.2024 11:26:22 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:22 PM</span>
+<span class='badge badge-default'>00:00:00:187</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesTextBox_20240320112622.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesTextBox_20240320112622.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:22 PM</td>
+        <td>
+          validateFeesAndChargesTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider</p>
+            <p class="text-sm">
+              <span>11:26:24 PM</span> / <span>00:00:00:260</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:26:24 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:25 PM</span>
+<span class='badge badge-default'>00:00:00:260</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesSlider_20240320112624.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validateFeesAndChargesSlider_20240320112624.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:24 PM</td>
+        <td>
+          validateFeesAndChargesSlider got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="39"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_36_LoanTenure_CalculatorIntegressionTestingForFeesAndChargesTextBoxAndSlider</p>
+            <p class="text-sm">
+              <span>11:26:27 PM</span> / <span>00:00:00:206</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_36_LoanTenure_CalculatorIntegressionTestingForFeesAndChargesTextBoxAndSlider</h5>
+<span class='badge badge-success'>03.20.2024 11:26:27 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:27 PM</span>
+<span class='badge badge-default'>00:00:00:206</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenFeesAndChargesSliderAndTextBox_20240320112627.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenFeesAndChargesSliderAndTextBox_20240320112627.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:27 PM</td>
+        <td>
+          validatingDataFlowBetweenFeesAndChargesSliderAndTextBox got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="40"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCases.TC_3_37_IntegrationTestingForYearAndMonthOption</p>
+            <p class="text-sm">
+              <span>11:26:31 PM</span> / <span>00:00:00:194</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCases.TC_3_37_IntegrationTestingForYearAndMonthOption</h5>
+<span class='badge badge-success'>03.20.2024 11:26:31 PM</span>
+<span class='badge badge-danger'>03.20.2024 11:26:31 PM</span>
+<span class='badge badge-default'>00:00:00:194</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenYearAndMonthButton_20240320112631.png' src="C:\Users\2318120\OneDrive - Cognizant\Desktop\HackathonProjectFinal_V1\screenshots\validatingDataFlowBetweenYearAndMonthButton_20240320112631.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:26:31 PM</td>
+        <td>
+          validatingDataFlowBetweenYearAndMonthButton got successfully executed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 20, 2024 11:24:28 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 20, 2024 11:26:32 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>38</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='95%'>
+<b>38</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='5%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='90%'><b>38</b> events passed</small></div>
+<div>
+<small data-tooltip='4%'><b>2</b> events failed,
+<b data-tooltip='%'>2</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testCases.TC_1_01_ParsingRequiredValuesToTheRespectiveFields":0.234,"testCases.TC_1_02_DisplayingTheEMIPaymentTable":0.165,"testCases.TC_2_01_StoringTheYearTableInTheExcel":0.152,"testCases.TC_3_01_EMICalculator_ValidatingLoanAmountTextBox":0.281,"testCases.TC_3_02_EMICalculator_ValidatingLoanAmountSlider":0.253,"testCases.TC_3_03_EMICalculator_IntegressionTestingForLoanAmountTextBoxAndSlider":0.272,"testCases.TC_3_04_EMICalculator_ValidatingInterestRateTextBox":0.246,"testCases.TC_3_05_EMICalculator_ValidatingInterestRateSlider":0.38,"testCases.TC_3_06_EMICalculator_IntegressionTestingForInterestRateTextBoxAndSlider":0.238,"testCases.TC_3_07_EMICalculator_ValidatingLoanTenureTextBox":0.192,"testCases.TC_3_08_EMICalculator_ValidatingLoanTenureSlider":0.251,"testCases.TC_3_09_EMICalculator_IntegressionTestingForLoanTenureTextBoxAndSlider":0.262,"testCases.TC_3_10_EMICalculator_ValidatingFeesAndChargesTextBox":0.231,"testCases.TC_3_11_EMICalculator_ValidatingFeesAndChargesSlider":0.267,"testCases.TC_3_12_EMICalculator_IntegressionTestingForFeesAndChargesTextBoxAndSlider":0.216,"testCases.TC_3_13_LoanAmtCalculator_ValidatingEMITextBox":0.228,"testCases.TC_3_14_LoanAmtCalculator_ValidatingEMISlider":0.241,"testCases.TC_3_15_LoanAmtCalculator_IntegressionTestingForEMITextBoxAndSlider":0.278,"testCases.TC_3_16_LoanAmtCalculator_ValidatingInterestRateTextBox":0.203,"testCases.TC_3_17_LoanAmtCalculator_ValidatingInterestRateSlider":0.313,"testCases.TC_3_18_LoanAmtCalculator_IntegressionTestingForInterestRateTextBoxAndSlider":0.207,"testCases.TC_3_19_LoanAmtCalculator_ValidatingLoanTenureTextBox":0.234,"testCases.TC_3_20_LoanAmtCalculator_ValidatingLoanTenureSlider":0.282,"testCases.TC_3_21_LoanAmtCalculator_IntegressionTestingForLoanTenureTextBoxAndSlider":0.212,"testCases.TC_3_22_LoanAmtCalculator_ValidatingFeesAndChargesTextBox":0.229,"testCases.TC_3_23_LoanAmtCalculator_ValidatingFeesAndChargesSlider":0.358,"testCases.TC_3_24_LoanAmtCalculator_IntegressionTestingForFeesAndChargesTextBoxAndSlider":0.237,"testCases.TC_3_25_LoanTenureCalculator_ValidatingLoanAmountTextBox":0.292,"testCases.TC_3_26_LoanTenureCalculator_ValidatingLoanAmountSlider":0.275,"testCases.TC_3_27_LoanTenureCalculator_IntegressionTestingForLoanAmountTextBoxAndSlider":0.245,"testCases.TC_3_28_LoanTenureCalculator_ValidatingEMITextBox":0.235,"testCases.TC_3_29_LoanTenureCalculator_ValidatingEMISlider":0.282,"testCases.TC_3_30_LoanTenureCalculator_IntegressionTestingForEMITextBoxAndSlider":0.222,"testCases.TC_3_31_LoanTenureCalculator_ValidatingInterestRateTextBox":0.232,"testCases.TC_3_32_LoanTenureCalculator_ValidatingInterestRateSlider":0.254,"testCases.TC_3_33_LoanTenureCalculator_IntegressionTestingForInterestRateTextBoxAndSlider":0.177,"testCases.TC_3_34_LoanTenureCalculator_ValidatingFeesAndChargesTextBox":0.187,"testCases.TC_3_35_LoanTenureCalculator_ValidatingFeesAndChargesSlider":0.26,"testCases.TC_3_36_LoanTenure_CalculatorIntegressionTestingForFeesAndChargesTextBoxAndSlider":0.206,"testCases.TC_3_37_IntegrationTestingForYearAndMonthOption":0.194
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>EMICalculator</td>
+</tr>
+<tr>
+<td>Module 1</td>
+<td>Interest Amount For Current Year</td>
+</tr>
+<tr>
+<td>Module 2</td>
+<td>Home Loan EMI Calculator</td>
+</tr>
+<tr>
+<td>Module 3</td>
+<td>Loan Calculator</td>
+</tr>
+<tr>
+<td>User Name</td>
+<td>2318120</td>
+</tr>
+<tr>
+<td>Environemnt</td>
+<td>QA</td>
+</tr>
+<tr>
+<td>Operating System</td>
+<td></td>
+</tr>
+<tr>
+<td>Browser</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 38,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 38,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 2
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
